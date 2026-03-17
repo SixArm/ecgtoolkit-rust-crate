@@ -1,0 +1,21 @@
+## ECG Toolkit Rust Crate
+##
+## Converted from C# ECG Conversion Toolkit.
+## Original author: Maarten JB van Ettinger.
+## Licensed under Apache License, Version 2.0.
+
+[package]
+name = "ecgtoolkit"
+version = "0.1.0"
+edition = "2024"
+description = "ECG Conversion Toolkit - read, write, and convert electrocardiogram files"
+authors = ["Joel Parker Henderson <joel@joelparkerhenderson.com>", "Maarten JB van Ettinger", "Claude.ai"]
+readme = "README.md"
+repository = "https://github.com/sixarm/ecgtoolkit-rust-crate/"
+license = "Apache-2.0"
+keywords = ["electrocardiogram", "ecg", "ekg", "medical", "heart"]
+categories = ["science::bioinformatics"]
+include = ["src/**/*", "index.md", "LICENSE.md", "README.md"]
+
+[dependencies]
+

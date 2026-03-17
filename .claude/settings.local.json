@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pwd:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo test:*)"
+    ]
+  }
+}
